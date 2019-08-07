@@ -1,0 +1,117 @@
+/* ICONS
+------------------------------------------------------------ */
+#accordion-panel-ComingSoonExpress_settings_panel .accordion-section-title:before,
+#accordion-section-ComingSoonExpress_main_settings_section .accordion-section-title:before,
+#customize-control-csx_enable_comingsoon span.customize-control-title:before,
+#customize-control-csx_preview_comingsoonpage span.customize-control-title:before,
+#accordion-section-ComingSoonExpress_background_section .accordion-section-title:before,
+#customize-control-csx_show_bg_image span.customize-control-title:before,
+#customize-control-csx_bg_image label.customize-control-title:before,
+#customize-control-csx_bg_image_position_x label.customize-control-title:before,
+#customize-control-csx_bg_image_position_y label.customize-control-title:before,
+#accordion-section-ComingSoonExpress_textcontent_section .accordion-section-title:before,
+#customize-control-csx_textcontent_bigtitle label.customize-control-title:before,
+#customize-control-csx_textcontent_headline label.customize-control-title:before,
+#customize-control-csx_textcontent_description label.customize-control-title:before,
+#customize-control-csx_textcontent_description_tinymce label.customize-control-title:before,
+#customize-control-csx_textcontent_credits label.customize-control-title:before,
+#accordion-section-ComingSoonExpress_colors_section .accordion-section-title:before,
+#accordion-section-sidebar-widgets-coming-soon-express-widget .accordion-section-title:before,
+#accordion-section-ComingSoonExpress_custom_css_section .accordion-section-title:before {
+	font-family: 'FontAwesome';
+	font-weight: normal;
+	display: inline-block;
+	text-align: center;
+	width: 21px;
+	margin-right: 2px;
+	opacity: 0.6;
+}
+
+#accordion-panel-ComingSoonExpress_settings_panel .accordion-section-title:before {
+	/* rocket */
+	content:"\f135";
+}
+
+#accordion-section-ComingSoonExpress_main_settings_section .accordion-section-title:before {
+	/* cog */
+	content:"\f013";
+}
+
+#accordion-section-ComingSoonExpress_background_section .accordion-section-title:before,
+#customize-control-csx_bg_image label.customize-control-title:before {
+	/* picture */
+	content:"\f03e";
+}
+
+#customize-control-csx_enable_comingsoon span.customize-control-title:before {
+	/* power-off */
+	content:"\f011";
+}
+
+#customize-control-csx_preview_comingsoonpage span.customize-control-title:before,
+#customize-control-csx_show_bg_image span.customize-control-title:before {
+	/* eye */
+	content:"\f06e";
+}
+
+#customize-control-csx_bg_image_position_x label.customize-control-title:before {
+	/* arrows-horizontal */
+	content:"\f07e";
+}
+
+#customize-control-csx_bg_image_position_y label.customize-control-title:before {
+	/* arrows-vertical */
+	content:"\f07d";
+}
+
+#accordion-section-ComingSoonExpress_textcontent_section .accordion-section-title:before {
+	/* letter-a */
+	content:"\f031";
+}
+
+#customize-control-csx_textcontent_bigtitle label.customize-control-title:before {
+	/* exclamation */
+	content:"\f12a";
+}
+
+#customize-control-csx_textcontent_headline label.customize-control-title:before {
+	/* letter-a */
+	content:"\f031";
+}
+
+#customize-control-csx_textcontent_description label.customize-control-title:before,
+#customize-control-csx_textcontent_description_tinymce label.customize-control-title:before {
+	/* text-cursor */
+	content:"\f246";
+}
+
+#accordion-section-ComingSoonExpress_colors_section .accordion-section-title:before {
+	/* eyedropper */
+	content:"\f1fb";
+}
+
+#accordion-section-sidebar-widgets-coming-soon-express-widget .accordion-section-title:before {
+	/* cubes */
+	content:"\f1b3";
+}
+
+#accordion-section-ComingSoonExpress_custom_css_section .accordion-section-title:before {
+	/* pencil */
+	content:"\f040";
+}
+
+/* CSX CUSTOMIZER SETTINGS
+----------------------------------------------------------------------------- */
+textarea#_customize-input-csx_custom_css_content {
+	min-height: 300px;
+	font-family: 'Courier New', monospace;
+	font-size: 11px;
+	line-height: normal;
+}
+
+#customize-control-csx_textcontent_description_tinymce .mce-toolbar .mce-btn i {
+	font-size: 16px;
+	line-height: 16px;
+	width: 16px;
+	height: 16px;
+}
