@@ -183,25 +183,25 @@ class Coming_Soon_Express_Customizer_Settings {
         );
 
         wp_add_inline_script(
-            'csx-theme-customizer', // handle name of customizer.js
+            'csx-theme-customizer',
             sprintf( 'var CSXTextLinkElements = %s;', wp_json_encode( $text_link_elements ) ),
             'before'
         );
 
         wp_add_inline_script(
-            'csx-theme-customizer', // handle name of customizer.js
+            'csx-theme-customizer',
             sprintf( 'var CSXTextLinkHoverElements = %s;', wp_json_encode( $text_link_hover_elements ) ),
             'before'
         );
 
         wp_add_inline_script(
-            'csx-theme-customizer', // handle name of customizer.js
+            'csx-theme-customizer',
             sprintf( 'var CSXButtonElements = %s;', wp_json_encode( $button_elements ) ),
             'before'
         );
 
         wp_add_inline_script(
-            'csx-theme-customizer', // handle name of customizer.js
+            'csx-theme-customizer',
             sprintf( 'var CSXButtonHoverElements = %s;', wp_json_encode( $button_hover_elements ) ),
             'before'
         );
@@ -602,7 +602,7 @@ class Coming_Soon_Express_Customizer_Settings {
         $wp_customize->add_setting( 'csx_textcontent_description_tinymce', array(
 			'type' 		=> 'option',
             'transport' => 'postMessage',
-            'default' 	=> __( 'Don\'t miss our liftoff — fill out your email address below, and we\'ll notify you when engines ignite.', $this->plugin_domain ),
+            'default' 	=> __( sprintf( "Don't miss our liftoff — fill out your email address below, and we'll notify you when engines ignite.<br><br>If you need immediate assistance, please email %s", '<a href="mailto:test@email.com">test@email.com</a>' ) , $this->plugin_domain ),
             'sanitize_callback' => 'wp_kses_post'
 		) );
 

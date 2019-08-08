@@ -5,8 +5,8 @@ Author URI: https://thebrandid.com/
 Tags: coming soon page, coming soon, under construction, launch page, launch, construction, offline, unavailable, under construction page, landing page, customizer
 Requires at least: 4.9
 Tested up to: 5.2.2
-Stable tag: 1.0.4
-Version: 1.0.4
+Stable tag: 1.0.5
+Version: 1.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -59,6 +59,10 @@ Please post on our Support Forum: https://thebrandidthemes.com/forum/support/plu
 7. Another Example 'Under Construction' Page
 
 == Changelog ==
+
+= 1.0.5 - (Aug 8, 2019) =
+* Fix: Fixed "CSXTextLinkHoverElements is not defined" error
+* Update: Added the ability to edit HTML code in the "Text Content" Customizer field
 
 = 1.0.4 - (May 15, 2019) =
 * Update: Compatible with WordPress 5.2

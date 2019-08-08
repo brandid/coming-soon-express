@@ -130,7 +130,7 @@ if ( class_exists( 'WP_Customize_Control' ) ) {
                 'media_buttons' => false,
                 'drag_drop_upload' => false,
                 'teeny' => true,
-                'quicktags' => false,
+                'quicktags' => true,
                 'textarea_rows' => 10,
                 // MAKE SURE TINYMCE CHANGES ARE LINKED TO CUSTOMIZER
                 'tinymce' => [

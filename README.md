@@ -39,6 +39,10 @@ Please post on our Support Forum: https://thebrandidthemes.com/forum/support/plu
 
 ## Changelog
 
+### 1.0.5 - (Aug 8, 2019)
+* Fix: Fixed "CSXTextLinkHoverElements is not defined" error
+* Update: Added the ability to edit HTML code in the "Text Content" Customizer field
+
 ### 1.0.4 - (May 15, 2019)
 * Update: Compatible with WordPress 5.2
 
