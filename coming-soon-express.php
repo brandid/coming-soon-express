@@ -2,7 +2,7 @@
 /*
  * Plugin Name: 	Coming Soon Express
  * Description: 	The fastest, easiest 'Coming Soon' page for your website! Use the WP Customizer to see a Live Preview of your page as you edit. Launch a temporary page in minutes!
- * Version: 		1.0.5
+ * Version: 		1.0.6
  * Author: 			brandiD
  * Author URI: 		https://thebrandid.com
  * Text Domain:		coming_soon_express_domain
@@ -24,8 +24,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 //* Default Constants
 define( 'CSEXPRESS_SLUG', 'coming-soon-express/coming-soon-express.php' );
 define( 'CSEXPRESS_TEXTDOMAIN', 'coming_soon_express_domain' );
-define( 'CSEXPRESS_PLUGIN_NAME', __( 'Coming Soon Express', 'coming-soon' ) );
-define( 'CSEXPRESS_PLUGIN_VERSION', '1.0.4');
+define( 'CSEXPRESS_PLUGIN_NAME', __( 'Coming Soon Express', 'coming_soon_express_domain' ) );
+define( 'CSEXPRESS_PLUGIN_VERSION', '1.0.6' );
 define( 'CSEXPRESS_PLUGIN_PATH', plugin_dir_path( __FILE__ ) ); // Example output: /Applications/MAMP/htdocs/{yoursite}/wp-content/plugins/coming-soon-express/
 define( 'CSEXPRESS_PLUGIN_ABS_URL', plugin_dir_url( __FILE__ ) ); // Example output: http://localhost/{yoursite}/wp-content/plugins/coming-soon-express/
 define( 'CSEXPRESS_ADMIN_PATH', plugin_dir_url( __FILE__ ) . 'admin' );

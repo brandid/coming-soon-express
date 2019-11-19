@@ -23,7 +23,7 @@ class Coming_Soon_Express_Page {
     	// extract(seed_csp4_get_settings());
 
         // if ( !isset($status)){
-        //     $err =  new WP_Error('error', __("Please enter your settings.", 'coming-soon'));
+        //     $err =  new WP_Error('error', __("Please enter your settings.", 'coming_soon_express_domain'));
         //     echo $err->get_error_message();
         //     exit();
         // }
