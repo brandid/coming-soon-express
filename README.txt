@@ -45,8 +45,12 @@ All the settings are configured by using the WordPress Customizer. Go to Appeara
 = Can I use a different background image? =
 Yes, you can upload any image you like! We recommend starting with the excellent free stock images on Unsplash.com
 
+= I think I've found a bug / I'd like to request a feature =
+Please report bugs or request features on GitHub here:
+https://github.com/brandid/coming-soon-express/issues/new/choose
+
 = Something Else? =
-Please post on our Support Forum: https://thebrandidthemes.com/forum/support/plugins/coming-soon-express/
+Please post on our Support Forum: https://buildmybrandid.com/forum/support/plugins/coming-soon-express/
 
 == Screenshots ==
 
