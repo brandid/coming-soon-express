@@ -39,9 +39,12 @@ class Coming_Soon_Express {
 
 		// FontAwesome
 		add_action( 'customize_controls_print_styles', array( $this, 'csx_enqueue_fontawesome' ) );
+		add_action( 'admin_enqueue_scripts', array( $this, 'csx_enqueue_fontawesome' ) );
+		add_action( 'wp_enqueue_scripts', array( $this, 'csx_enqueue_fontawesome' ) );
 
 		// Admin styles
 		add_action( 'admin_enqueue_scripts', array( $this, 'csx_enqueue_admin_styles' ) );
+		add_action( 'wp_enqueue_scripts', array( $this, 'csx_enqueue_admin_styles' ) );
 
 		// Customizer Styles
 		add_action( 'customize_controls_print_styles', array( $this, 'csx_enqueue_customizer_styles' ) );
@@ -167,18 +170,22 @@ class Coming_Soon_Express {
 		if ( wp_script_is( $font_awesome, 'enqueued' ) || wp_script_is( $fontawesome, 'enqueued' ) ) {
 			return;
 		} else {
-			wp_enqueue_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css', array(), $this->version );
+			wp_enqueue_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css', array(), '4.6.1' );
 		}
 
 	}
 
-	public function csx_enqueue_admin_styles(){
+	public function csx_enqueue_admin_styles() {
 
-		wp_enqueue_style( 'csx-admin-styles', CSEXPRESS_ADMIN_PATH . '/coming-soon-express-admin-styles.css', array(), $this->version );
+		if ( wp_script_is( 'csx-admin-styles', 'enqueued' ) ) {
+			return;
+		} else {
+			wp_enqueue_style( 'csx-admin-styles', CSEXPRESS_ADMIN_PATH . '/coming-soon-express-admin-styles.css', array(), $this->version );
+		}
 
 	}
 
-	public function csx_enqueue_customizer_styles(){
+	public function csx_enqueue_customizer_styles() {
 
 		wp_enqueue_style( 'csx-customizer-styles', CSEXPRESS_ADMIN_PATH . '/coming-soon-express-customizer-styles.css', array(), $this->version );
 

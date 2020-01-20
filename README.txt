@@ -4,9 +4,9 @@ Author: brandiD
 Author URI: https://thebrandid.com/
 Tags: coming soon page, coming soon, under construction, launch page, launch, construction, offline, unavailable, under construction page, landing page, customizer
 Requires at least: 4.9
-Tested up to: 5.3
-Stable tag: 1.0.6
-Version: 1.0.6
+Tested up to: 5.3.2
+Stable tag: 1.0.7
+Version: 1.0.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 

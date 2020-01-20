@@ -2,7 +2,7 @@
 /*
  * Plugin Name: 	Coming Soon Express
  * Description: 	The fastest, easiest 'Coming Soon' page for your website! Use the WP Customizer to see a Live Preview of your page as you edit. Launch a temporary page in minutes!
- * Version: 		1.0.6
+ * Version: 		1.0.7
  * Author: 			brandiD
  * Author URI: 		https://thebrandid.com
  * Text Domain:		coming_soon_express_domain
