@@ -43,6 +43,9 @@ Please post on our Support Forum: https://buildmybrandid.com/forum/support/plugi
 
 ## Changelog
 
+### 1.0.7 - (Sept 9, 2021)
+* Update: Compatible with WordPress 5.8.1
+
 ### 1.0.7 - (Jan 20, 2020)
 * Update: Compatible with WordPress 5.3.2
 * Update: Adds the back-end Admin Bar styles when viewing pages on the front-end
